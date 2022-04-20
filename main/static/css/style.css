@@ -1,0 +1,97 @@
+:root{
+    --color1: #FF7C00;
+    --color2: #04859D;
+}
+header, footer, section{
+    padding: 50px 0;
+}
+header{
+    padding: 200px 0;
+}
+header, footer{
+    background: -webkit-linear-gradient(90deg, var(--color1) 11%, var(--color2));
+    background: -moz-linear-gradient(90deg, var(--color1) 11%, var(--color2));
+    background: linear-gradient(90deg, var(--color1) 11%, var(--color2));
+}
+.itd_play{
+    background-color: var(--color1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.5s ease;
+}
+.itd_play:hover {
+    background-color: #04859D;
+}
+.itd_triangle{
+    margin-right: -3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent var(--bs-white);
+}
+/*Цвет текста*/
+.color1{
+    color:var(--color1)
+}
+.color2{
+    color:var(--color2)
+}
+.bg1{
+    color:var(--color1)
+}
+.bg2{
+    color:var(--color2)
+}
+/*наши услуги*/
+.about, .jobs{
+    background-color: rgb(226, 219, 219);
+}
+.about i{
+    font-size: 25px;
+    color: var(--color2);
+}
+.cd_circle{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+.want h5{
+    padding: 50px;
+    width: flex;
+    height: 100px;
+    margin: 0 auto 15px;
+    border: 3px solid var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Комплексные работы*/
+.accordion-button:not(.collapsed){
+    color: var(--bs-white);
+    background-color: var(--color1);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+

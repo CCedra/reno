@@ -1,0 +1,387 @@
+{% extends 'main/base.html' %}
+{% load static %}
+<!--Текст закладки-->
+{% block title %}
+  
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center text-white">Строительная компания RENO</h1>               
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center text-uppercase color-1 mb-5">Наши услуги</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-inbox"></i></div>   
+                <h5 class="text-center">Заливка фундамента</h5> 
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-align-justify"></i></div>   
+                <h5 class="text-center">Возведение стен</h5> 
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-eject"></i></div>   
+                <h5 class="text-center">Строительство крыши</h5> 
+                <div class="line"></div>
+            </div>
+
+
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-warning"></i></div>   
+                <h5 class="text-center">Работа с кровлей</h5> 
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-indent-right"></i></div>   
+                <h5 class="text-center">Работа с фасадом</h5> 
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-lightbulb"></i></div>   
+                <h5 class="text-center">Прокладка коммуникаций</h5> 
+                <div class="line"></div>
+            </div>
+
+            
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-stop"></i></div>   
+                <h5 class="text-center">Выравнивание стен</h5> 
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-barcode"></i></div>   
+                <h5 class="text-center">Поклейка обоев</h5> 
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="cd_circle"><i class="icon-download-alt"></i></div>   
+                <h5 class="text-center">Укладка ламината</h5> 
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+</section>   
+
+
+<section class="want">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center text-uppercase color-1 mb-5">Ты хочешь наш ремонт</h2>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-6 col-sm-12">
+                <h5>Цены ниже рыночных</h5>  
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h5>Гарантия шесть месяцев</h5> 
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <h5>Проводим работу в установленный срок</h5>  
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h5>Вывоз всего строительного мусора(можем и ваш прихватить)</h5>  
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="jobs">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center text-uppercase color-1 mb-3">Комплексные работы</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h4 class="text-center fw-bold mb-3 mt-3">Внешняя отделка</h4>
+
+                <div class="accordion" id="out_job">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="out_job_head1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#out_job_item1" aria-expanded="true" aria-controls="out_job_item1">
+                          Материалы
+                        </button>
+                      </h2>
+                      <div id="out_job_item1" class="accordion-collapse collapse show" aria-labelledby="out_job_head1" data-bs-parent="#out_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>Мы используем только качественные материалы.</strong> </br>Налаженная связь с поставщиками позволяет нам исользовать только проверенные и качественные материалы для работы. Не боясь встретить брак или дефицит. Для вашего удобства мы предоставляем большой каталог материалов, которые вы сами можете осмотреть, пощупать и выбрать тот что подходит именно вам.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="out_job_head2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#out_job_item2" aria-expanded="false" aria-controls="out_job_item2">
+                          Качество
+                        </button>
+                      </h2>
+                      <div id="out_job_item2" class="accordion-collapse collapse" aria-labelledby="out_job_head2" data-bs-parent="#out_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>Качество работ прямо влияет на конечный результат</strong> </br>Мы поможем выявить ваши потребности и желания на основании ваших финансов и времени которое мы можем потратить на работы. Исходя из нескольких параметров мы определим оптимальное время и цену работ, без потери качества.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="out_job_head3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#out_job_item3" aria-expanded="false" aria-controls="out_job_item3">
+                          Время
+                        </button>
+                      </h2>
+                      <div id="out_job_item3" class="accordion-collapse collapse" aria-labelledby="out_job_head3" data-bs-parent="#out_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>К сожалению, хороший ремонт фасада или кровли не может закончиться за пару часов</strong> </br>На время работы влияют несколько факторов. Во первых это время года. Теплым, сухим летним днем работа пройдет на много проще и быстрее нежели в суровую пургу в конце года. Так же влияет цена. В зависимости от количества работников в бригаде будет изменяться не только стоимость, но и время потраченное на работы.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="out_job_head4">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#out_job_item4" aria-expanded="false" aria-controls="out_job_item4">
+                            Детали
+                          </button>
+                        </h2>
+                        <div id="out_job_item4" class="accordion-collapse collapse" aria-labelledby="out_job_head4" data-bs-parent="#out_job">
+                          <div class="accordion-body fst-italic">
+                            <strong>Внешняя отделка это большой объем работ. Но не все обращат внимания на детали.</strong> </br>Начиная от заглушек на шляпки шурупов и болтов в цвет и фактуру материала, заканчивая подобранным по форме и цвету ливневым стоком. Когда замечаешь именно такие мелочи, начинаешь ценить мастеров что проделали работу.
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="out_job_head5">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#out_job_item5" aria-expanded="false" aria-controls="out_job_item5">
+                            Гарантии
+                          </button>
+                        </h2>
+                        <div id="out_job_item5" class="accordion-collapse collapse" aria-labelledby="out_job_head5" data-bs-parent="#out_job">
+                          <div class="accordion-body fst-italic">
+                            <strong>В течении полугода после окончания работ, мы можем переделать все, что вам не понравилось</strong> </br>При приемке работы невозможно с первого взгляда оценить качество работы. Для этого нужно время. По этому у нас есть полугодовая гарантия качества наших работ. У вас есть пол года чтобы найти какие то недочеты в нашей работе. У вас есть возможность заполнить форму обратной связи, после чего с вами свяжутся для уточнения вашего вопроса. Если мы выявим некачественную работу с нашей стороны, мы с радостью БЕСПЛАТНО изменим все недочеты.
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>  
+
+
+
+            <div class="col-md-4 col-sm-12">
+                <h4 class="text-center fw-bold mb-3 mt-3">Внутренняя отделка</h4>
+
+                <div class="accordion" id="in_job">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="in_job_head1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#in_job_item1" aria-expanded="true" aria-controls="in_job_item1">
+                          Дизайн
+                        </button>
+                      </h2>
+                      <div id="in_job_item1" class="accordion-collapse collapse show" aria-labelledby="in_job_head1" data-bs-parent="#in_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>Не все знают что им нужно.</strong> </br>Иногда случается, что вы хотите поменять свой интерьер, но не знаете как грамотно обыграть имеющееся пространство. В этом вам помогут наши дизайнеры. 
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="in_job_head2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#in_job_item2" aria-expanded="false" aria-controls="in_job_item2">
+                          Индивидуальный подход
+                        </button>
+                      </h2>
+                      <div id="in_job_item2" class="accordion-collapse collapse" aria-labelledby="in_job_head2" data-bs-parent="#in_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>Мы не хотим навязывать вам наши решения.</strong> </br>Любой дизайнерский проект который мы подготовим, будет согласовываться и правиться на основании ваших возможностей, желаний и предпочтений. И дизайнеры и клиенты остаются довольны.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="in_job_head3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#in_job_item3" aria-expanded="false" aria-controls="in_job_item3">
+                          Выбор материалов
+                        </button>
+                      </h2>
+                      <div id="in_job_item3" class="accordion-collapse collapse" aria-labelledby="in_job_head3" data-bs-parent="#in_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>В отличии от ремонта фасада или кровли, внутренняя отделка может примерить на себя на много больше разных вариантов материалов</strong> </br>И не только материалов, но и их сочитаний. Хороший ремонт нужен всем, но не все готовы тратить киллограмы денег. В этом нам поможет широкий выбор материалов. Любую дизайнерскую идею можно обыграть сотнями разных сочитаний. 
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="in_job_head4">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#in_job_item4" aria-expanded="false" aria-controls="in_job_item4">
+                            Коммуникаций
+                          </button>
+                        </h2>
+                        <div id="in_job_item4" class="accordion-collapse collapse" aria-labelledby="in_job_head4" data-bs-parent="#in_job">
+                          <div class="accordion-body fst-italic">
+                            <strong>Проблемы с электросетью или трубопроводом? Мы бы поспорили</strong> </br>Если ваш дом подключен к центральному водоснабжению и проведено эллектричество, проблем нет. На любой карман найдется свое решение, при этом качество страдать не будет. Мы добиваемся этого путем грамматных расчетов и подбора материалов.
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="in_job_head5">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#in_job_item5" aria-expanded="false" aria-controls="in_job_item5">
+                            Ход работ
+                          </button>
+                        </h2>
+                        <div id="in_job_item5" class="accordion-collapse collapse" aria-labelledby="in_job_head5" data-bs-parent="#in_job">
+                          <div class="accordion-body fst-italic">
+                            <strong>"Через недельку, две мы тут со всем закончим. Переведите еще денег"</strong> </br>Это не наш подход. Прежде чем приступить к работам мы вызываем специалиста который составляет смету необходимых работ и работ которые сделать нужно, но не обязательно. После чего вам оглашается стоимость и период окончания работ.
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div> 
+
+
+            <div class="col-md-4 col-sm-12">
+                <h4 class="text-center fw-bold mb-3 mt-3">Под ключ</h4>
+
+                <div class="accordion" id="full_job">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="full_job_head1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#full_job_item1" aria-expanded="true" aria-controls="full_job_item1">
+                          Что это?
+                        </button>
+                      </h2>
+                      <div id="full_job_item1" class="accordion-collapse collapse show" aria-labelledby="full_job_head1" data-bs-parent="#full_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>Это значит что вы будете минимально учавствовать в работе.</strong> </br>Если у вас слишком мало свободного времени и вы готовы потратиться чуть больше, мы можем сделать все работы, чтобы не возникало вопросов и неудобств пока вы находитесь в стенах родного дома. Розетки, стены, ремонт комнат, сантехника, все недочеты будут исправлены нами
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="full_job_head2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#full_job_item2" aria-expanded="false" aria-controls="full_job_item2">
+                          Что от вас требуется
+                        </button>
+                      </h2>
+                      <div id="full_job_item2" class="accordion-collapse collapse" aria-labelledby="full_job_head2" data-bs-parent="#full_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>Всего пара млочей</strong> </br>Заполнить анкету, согласовать смету и сроки работ. остальное мы сделаем сами
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="full_job_head3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#full_job_item3" aria-expanded="false" aria-controls="full_job_item3">
+                          Дополнительные услуги
+                        </button>
+                      </h2>
+                      <div id="full_job_item3" class="accordion-collapse collapse" aria-labelledby="full_job_head3" data-bs-parent="#full_job">
+                        <div class="accordion-body fst-italic">
+                          <strong>Так-же, вы можете не беспокоиться за чистоту квартиры после работ.</strong> </br>По мимо вывоза всего строительного мусора мы проведем клининг на месте работ, чтобы вы не о чем не беспокоились.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+    </div>
+</section>
+
+
+<section class="offers">
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col-12">
+                <h2 class="text-center text-uppercase color-1 mb-5">Мы предлагаем работы любой сложности</h2>
+            </div>
+        </div>        
+        <div class="row mb-2">
+            <div class="col-xl-5 col-sm-12 offset-xl-1 offers-sm-0 mb-5">
+              <div id="carou1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carou1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carou1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carou1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{% static 'img/11.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static 'img/21.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static 'img/31.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carou1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carou1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+            </div>  
+
+
+            <div class="col-xl-5 col-sm-12 offset-xl-1 offers-sm-0">
+              <div id="carou2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carou2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carou2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carou2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{% static 'img/12.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static 'img/22.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static 'img/32.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carou2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carou2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+            </div> 
+                
+            
+        </div>
+        <h4 class="text-center">Непригодные для жилья студии могут получить вторую жизнь и превратиться в уютное гнездышко</h4> 
+                <div class="line"></div>
+    </div>
+</section>
+<footer id="footer">
+</footer>
+
+
+{% endblock %}

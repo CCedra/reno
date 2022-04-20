@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+
+<!--Текст закладки-->
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>Наши товары</h1>
+    {% if tasks %}
+        {% for el in tasks %}
+            <div class="alert alert-warning mt-2">
+                <h3>{{ el.prod_name }}</h3>
+                <p>{{ el.prod_price }}</p>
+                <p>{{ el.prod_task }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Записи не найдены</p>
+    {% endif %}
+{% endblock %}
